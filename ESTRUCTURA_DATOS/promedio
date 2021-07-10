@@ -1,0 +1,16 @@
+from validar import *
+s=0
+
+#Leemos la cantidad de numeros.  validamos que sea entero
+ObjDatos=Datos()
+num = ObjDatos.leerEnteroPositivo("Escribe el valor de un numero")
+
+
+#Leemos todos los numeros. Validamos que sea numerico
+
+for i in range (0, num):
+    numero = ObjDatos.leerFlotantePositivo("Escribe el valor a Promediar")
+    s = s + numero
+p=s/num
+print ("el promedio de los numeros es ",p)
+print ("------------------")

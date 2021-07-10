@@ -1,0 +1,12 @@
+from Vehiculo import *
+
+
+autoJameny=Vehiculo("NISSAN","TSURU","NEGRO")
+
+print(autoJameny.getMarca())
+print(autoJameny.getModelo())
+print(autoJameny.getColor())
+print(autoJameny.getKilometraje())
+
+print(autoJameny.encender())
+print(autoJameny.avanzar())
